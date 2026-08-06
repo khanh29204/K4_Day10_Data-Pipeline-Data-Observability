@@ -1,7 +1,5 @@
 # Member Role Report — Day 10: Data Pipeline & Data Observability
 
-> Bản này do Claude soạn theo mẫu `individual_report.md`, dựa trên code, git log và artifact thật trong repo. Các mục có `[ ]` là thông tin chỉ bạn mới biết (định danh cá nhân, quyết định/blocker cá nhân, cảm nhận) — **cần tự điền hoặc chỉnh lại trước khi nộp**, đừng để nguyên placeholder.
-
 ## 1. Thông tin cá nhân
 
 | Thông tin         | Nội dung                  |
