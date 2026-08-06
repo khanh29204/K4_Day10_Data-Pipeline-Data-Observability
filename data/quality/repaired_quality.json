@@ -1,0 +1,32 @@
+{
+  "report_name": "repaired_quality",
+  "timestamp": "2026-08-06T09:38:07.145281+00:00",
+  "row_count": 24,
+  "checks": {
+    "row_count_check": {
+      "passed": true,
+      "details": "Found 24 rows."
+    },
+    "paper_id_null_check": {
+      "passed": true,
+      "details": "0 null paper_ids."
+    },
+    "paper_id_unique_check": {
+      "passed": true,
+      "details": "All paper_ids are unique."
+    },
+    "title_null_check": {
+      "passed": true,
+      "details": "0 null or empty titles."
+    },
+    "summary_length_check": {
+      "passed": true,
+      "details": "0 short summaries."
+    },
+    "freshness_check": {
+      "passed": true,
+      "details": "0 stale rows."
+    }
+  },
+  "overall_passed": true
+}
