@@ -1,0 +1,32 @@
+{
+  "report_name": "corrupted_quality",
+  "timestamp": "2026-08-06T09:38:04.695202+00:00",
+  "row_count": 24,
+  "checks": {
+    "row_count_check": {
+      "passed": true,
+      "details": "Found 24 rows."
+    },
+    "paper_id_null_check": {
+      "passed": true,
+      "details": "0 null paper_ids."
+    },
+    "paper_id_unique_check": {
+      "passed": false,
+      "details": "3 duplicate paper_ids."
+    },
+    "title_null_check": {
+      "passed": true,
+      "details": "0 null or empty titles."
+    },
+    "summary_length_check": {
+      "passed": false,
+      "details": "3 summaries are empty or less than 100 characters."
+    },
+    "freshness_check": {
+      "passed": false,
+      "details": "3 rows are older than 180 days or have no valid publish date."
+    }
+  },
+  "overall_passed": false
+}
