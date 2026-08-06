@@ -16,6 +16,7 @@ class Paths:
     raw_records_json: Path
     clean_csv: Path
     clean_json: Path
+    clean_log: Path
     chroma_dir: Path
     embeddings_json: Path
     corrupted_clean_csv: Path
@@ -84,6 +85,7 @@ def load_settings(project_dir: Path | None = None) -> Settings:
         raw_records_json=data_dir / "raw" / "crossref_records.json",
         clean_csv=data_dir / "clean" / "papers_clean.csv",
         clean_json=data_dir / "clean" / "papers_clean.json",
+        clean_log=data_dir / "clean" / "cleaning_log.json",
         chroma_dir=data_dir / "chroma",
         embeddings_json=data_dir / "embeddings" / "papers_embeddings.json",
         corrupted_clean_csv=data_dir / "clean" / "papers_clean_corrupted.csv",
