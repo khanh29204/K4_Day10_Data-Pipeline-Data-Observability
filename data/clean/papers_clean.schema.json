@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/papers-clean.schema.json",
+  "title": "Clean paper dataset",
+  "description": "Schema for the cleaned paper records derived from papers_clean.json.",
+  "type": "array",
+  "items": {
+    "$ref": "#/$defs/paper"
+  },
+  "$defs": {
+    "paper": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "paper_id": {
+          "type": "string",
+          "description": "Lowercase DOI. Records without a DOI or with a duplicate DOI are dropped.",
+          "minLength": 1,
+          "pattern": "^10\\.[0-9]{4,9}/[a-z0-9][a-z0-9._;()/:-]*$"
+        },
+        "title": {
+          "type": "string",
+          "description": "Normalized paper title; duplicate titles are detected case-insensitively.",
+          "minLength": 10
+        },
+        "summary": {
+          "type": "string",
+          "description": "Normalized paper abstract/summary.",
+          "minLength": 80
+        },
+        "authors_joined": {
+          "type": "string",
+          "description": "Authors joined into one string; empty values are replaced with Unknown.",
+          "minLength": 1
+        },
+        "categories_joined": {
+          "type": "string",
+          "description": "Categories joined into one string; falls back to container-title and type, then Uncategorized.",
+          "minLength": 1
+        },
+        "published": {
+          "type": "string",
+          "description": "Publication date in ISO 8601 date format. Records with unparseable dates are dropped.",
+          "format": "date"
+        },
+        "age_days": {
+          "type": "integer",
+          "description": "Signed number of days from published to the pipeline run date; negative means future-dated."
+        },
+        "text_for_embedding": {
+          "type": "string",
+          "description": "Embedding text regenerated from title, authors_joined, categories_joined, published, and summary.",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "paper_id",
+        "title",
+        "summary",
+        "published",
+        "age_days",
+        "text_for_embedding"
+      ],
+      "$comment": "Dataset-level validation must additionally drop duplicate paper_id values and duplicate title.lower() values."
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/crossref-records.schema.json",
+  "title": "Crossref normalized raw records",
+  "description": "Schema for the normalized record snapshot stored in crossref_records.json.",
+  "type": "array",
+  "items": {
+    "$ref": "#/$defs/crossrefRecord"
+  },
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "optionalDate": {
+      "anyOf": [
+        {
+          "const": ""
+        },
+        {
+          "type": "string",
+          "format": "date"
+        }
+      ]
+    },
+    "optionalUri": {
+      "anyOf": [
+        {
+          "const": ""
+        },
+        {
+          "type": "string",
+          "format": "uri"
+        }
+      ]
+    },
+    "crossrefRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "paper_id": {
+          "$ref": "#/$defs/nonEmptyString",
+          "description": "DOI supplied by Crossref; used as the raw record identifier."
+        },
+        "title": {
+          "$ref": "#/$defs/nonEmptyString",
+          "description": "First title from Crossref, normalized for whitespace and tags."
+        },
+        "summary": {
+          "$ref": "#/$defs/nonEmptyString",
+          "description": "Abstract from Crossref, with HTML/JATS tags removed."
+        },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Author names extracted from Crossref; empty when unavailable."
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Crossref subject values; empty when unavailable."
+        },
+        "primary_category": {
+          "type": "string",
+          "description": "First category, or an empty string when no category exists."
+        },
+        "published": {
+          "$ref": "#/$defs/optionalDate",
+          "description": "Published date normalized to ISO YYYY-MM-DD; empty when unavailable."
+        },
+        "updated": {
+          "$ref": "#/$defs/optionalDate",
+          "description": "Latest source update date normalized to ISO YYYY-MM-DD; empty when unavailable."
+        },
+        "abs_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Crossref URL, or a DOI URL fallback."
+        },
+        "pdf_url": {
+          "$ref": "#/$defs/optionalUri",
+          "description": "PDF link when Crossref provides one; otherwise empty."
+        },
+        "comment": {
+          "type": "string",
+          "description": "Container/journal and bibliographic details assembled from Crossref; may be empty."
+        }
+      },
+      "required": [
+        "paper_id",
+        "title",
+        "summary",
+        "authors",
+        "categories",
+        "primary_category",
+        "published",
+        "updated",
+        "abs_url",
+        "pdf_url",
+        "comment"
+      ],
+      "$comment": "This is the normalized raw snapshot. Cleaning applies length thresholds, DOI/title deduplication, fallbacks, and derived fields afterward."
+    }
+  }
+}
