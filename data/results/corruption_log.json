@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-08-06T09:37:58.220519+00:00",
+  "original_row_count": 24,
+  "corruptions": [
+    {
+      "type": "drop_latest_records",
+      "count": 3,
+      "details": "Dropped paper_ids: ['10.2118/234689-pa', '10.1007/s10278-026-02086-9', '10.21203/rs.3.rs-10178277/v1']"
+    },
+    {
+      "type": "blank_summary",
+      "count": 3,
+      "indices": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "type": "inject_noise",
+      "count": 3,
+      "indices": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "type": "truncate_title",
+      "count": 3,
+      "indices": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "type": "stale_published_date",
+      "count": 3,
+      "indices": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "type": "add_duplicate_rows",
+      "count": 3,
+      "indices": [
+        12,
+        13,
+        14
+      ]
+    }
+  ],
+  "final_row_count": 24
+}
