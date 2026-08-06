@@ -1,0 +1,362 @@
+[
+  {
+    "id": "q_1",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'Brain Organoids and the Law'?",
+    "ground_truth": "Academic research publication titled 'Brain Organoids and the Law'.",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-72371-1_11"
+    ]
+  },
+  {
+    "id": "q_2",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Brain Organoids and the Law'?",
+    "ground_truth": "Adithi Iyer",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-72371-1_11"
+    ]
+  },
+  {
+    "id": "q_3",
+    "question_type": "date",
+    "question": "When was the paper 'Brain Organoids and the Law' published?",
+    "ground_truth": "2024-11-20",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-72371-1_11"
+    ]
+  },
+  {
+    "id": "q_4",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Brain Organoids and the Law' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-72371-1_11"
+    ]
+  },
+  {
+    "id": "q_5",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'Elites'?",
+    "ground_truth": "Academic research publication titled 'Elites'.",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-32152-8_30"
+    ]
+  },
+  {
+    "id": "q_6",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Elites'?",
+    "ground_truth": "Alejandro Pelfini",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-32152-8_30"
+    ]
+  },
+  {
+    "id": "q_7",
+    "question_type": "date",
+    "question": "When was the paper 'Elites' published?",
+    "ground_truth": "2024-11-20",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-32152-8_30"
+    ]
+  },
+  {
+    "id": "q_8",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Elites' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-32152-8_30"
+    ]
+  },
+  {
+    "id": "q_9",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'Loot Crates'?",
+    "ground_truth": "Academic research publication titled 'Loot Crates'.",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-23161-2_300726"
+    ]
+  },
+  {
+    "id": "q_10",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Loot Crates'?",
+    "ground_truth": "Unknown Author",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-23161-2_300726"
+    ]
+  },
+  {
+    "id": "q_11",
+    "question_type": "date",
+    "question": "When was the paper 'Loot Crates' published?",
+    "ground_truth": "2024-01-05",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-23161-2_300726"
+    ]
+  },
+  {
+    "id": "q_12",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Loot Crates' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-23161-2_300726"
+    ]
+  },
+  {
+    "id": "q_13",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'The Fiscal Treatment of Family Size: A Further Look'?",
+    "ground_truth": "Academic research publication titled 'The Fiscal Treatment of Family Size: A Further Look'.",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-28170-9_6"
+    ]
+  },
+  {
+    "id": "q_14",
+    "question_type": "authors",
+    "question": "Who authored the paper 'The Fiscal Treatment of Family Size: A Further Look'?",
+    "ground_truth": "Alessandro Balestrino",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-28170-9_6"
+    ]
+  },
+  {
+    "id": "q_15",
+    "question_type": "date",
+    "question": "When was the paper 'The Fiscal Treatment of Family Size: A Further Look' published?",
+    "ground_truth": "2023-04-27",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-28170-9_6"
+    ]
+  },
+  {
+    "id": "q_16",
+    "question_type": "categories",
+    "question": "What categories does the paper 'The Fiscal Treatment of Family Size: A Further Look' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-28170-9_6"
+    ]
+  },
+  {
+    "id": "q_17",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'Interkulturelles Zusammenleben'?",
+    "ground_truth": "Academic research publication titled 'Interkulturelles Zusammenleben'.",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-476-05869-0_72"
+    ]
+  },
+  {
+    "id": "q_18",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Interkulturelles Zusammenleben'?",
+    "ground_truth": "Valentin Beck",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-476-05869-0_72"
+    ]
+  },
+  {
+    "id": "q_19",
+    "question_type": "date",
+    "question": "When was the paper 'Interkulturelles Zusammenleben' published?",
+    "ground_truth": "2023-04-27",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-476-05869-0_72"
+    ]
+  },
+  {
+    "id": "q_20",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Interkulturelles Zusammenleben' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-476-05869-0_72"
+    ]
+  },
+  {
+    "id": "q_21",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'Gesetzliche Regelungen f\u00fcr Auszeiten'?",
+    "ground_truth": "Academic research publication titled 'Gesetzliche Regelungen f\u00fcr Auszeiten'.",
+    "ground_truth_doc_ids": [
+      "10.34157/978-3-648-16750-2_3"
+    ]
+  },
+  {
+    "id": "q_22",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Gesetzliche Regelungen f\u00fcr Auszeiten'?",
+    "ground_truth": "Britta Redmann",
+    "ground_truth_doc_ids": [
+      "10.34157/978-3-648-16750-2_3"
+    ]
+  },
+  {
+    "id": "q_23",
+    "question_type": "date",
+    "question": "When was the paper 'Gesetzliche Regelungen f\u00fcr Auszeiten' published?",
+    "ground_truth": "2023-01-01",
+    "ground_truth_doc_ids": [
+      "10.34157/978-3-648-16750-2_3"
+    ]
+  },
+  {
+    "id": "q_24",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Gesetzliche Regelungen f\u00fcr Auszeiten' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.34157/978-3-648-16750-2_3"
+    ]
+  },
+  {
+    "id": "q_25",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'Teaching Comparative Education in Cuba and the United States'?",
+    "ground_truth": "Academic research publication titled 'Teaching Comparative Education in Cuba and the United States'.",
+    "ground_truth_doc_ids": [
+      "10.1007/978-981-16-8679-5_306"
+    ]
+  },
+  {
+    "id": "q_26",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Teaching Comparative Education in Cuba and the United States'?",
+    "ground_truth": "Mark Ginsburg, Rosa Maria Mass\u00f3n Cruz, Emigdio Rodr\u00edguez Alfonso, Yuitana Garc\u00eda Isaac",
+    "ground_truth_doc_ids": [
+      "10.1007/978-981-16-8679-5_306"
+    ]
+  },
+  {
+    "id": "q_27",
+    "question_type": "date",
+    "question": "When was the paper 'Teaching Comparative Education in Cuba and the United States' published?",
+    "ground_truth": "2022-08-27",
+    "ground_truth_doc_ids": [
+      "10.1007/978-981-16-8679-5_306"
+    ]
+  },
+  {
+    "id": "q_28",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Teaching Comparative Education in Cuba and the United States' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.1007/978-981-16-8679-5_306"
+    ]
+  },
+  {
+    "id": "q_29",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'Extensions'?",
+    "ground_truth": "Academic research publication titled 'Extensions'.",
+    "ground_truth_doc_ids": [
+      "10.1007/978-1-4842-7310-4_15"
+    ]
+  },
+  {
+    "id": "q_30",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Extensions'?",
+    "ground_truth": "Bauke Scholtz, Arjan Tijms",
+    "ground_truth_doc_ids": [
+      "10.1007/978-1-4842-7310-4_15"
+    ]
+  },
+  {
+    "id": "q_31",
+    "question_type": "date",
+    "question": "When was the paper 'Extensions' published?",
+    "ground_truth": "2022-03-16",
+    "ground_truth_doc_ids": [
+      "10.1007/978-1-4842-7310-4_15"
+    ]
+  },
+  {
+    "id": "q_32",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Extensions' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.1007/978-1-4842-7310-4_15"
+    ]
+  },
+  {
+    "id": "q_33",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'?",
+    "ground_truth": "Academic research publication titled 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'.",
+    "ground_truth_doc_ids": [
+      "10.1016/b978-0-08-102696-0.00020-8"
+    ]
+  },
+  {
+    "id": "q_34",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'?",
+    "ground_truth": "D. Zonta",
+    "ground_truth_doc_ids": [
+      "10.1016/b978-0-08-102696-0.00020-8"
+    ]
+  },
+  {
+    "id": "q_35",
+    "question_type": "date",
+    "question": "When was the paper 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures' published?",
+    "ground_truth": "2022-01-01",
+    "ground_truth_doc_ids": [
+      "10.1016/b978-0-08-102696-0.00020-8"
+    ]
+  },
+  {
+    "id": "q_36",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.1016/b978-0-08-102696-0.00020-8"
+    ]
+  },
+  {
+    "id": "q_37",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'Bingham, Hiram (1875\u20131956)'?",
+    "ground_truth": "Academic research publication titled 'Bingham, Hiram (1875\u20131956)'.",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-030-58292-0_20395"
+    ]
+  },
+  {
+    "id": "q_38",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Bingham, Hiram (1875\u20131956)'?",
+    "ground_truth": "Unknown Author",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-030-58292-0_20395"
+    ]
+  },
+  {
+    "id": "q_39",
+    "question_type": "date",
+    "question": "When was the paper 'Bingham, Hiram (1875\u20131956)' published?",
+    "ground_truth": "2021-05-01",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-030-58292-0_20395"
+    ]
+  },
+  {
+    "id": "q_40",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Bingham, Hiram (1875\u20131956)' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-030-58292-0_20395"
+    ]
+  }
+]

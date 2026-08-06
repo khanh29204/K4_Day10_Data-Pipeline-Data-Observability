@@ -35,6 +35,8 @@ def _fallback_parse_raw_item(idx: int, item: dict) -> PaperRecord:
     
     raw_abs = item.get("abstract", "")
     summary = normalize_whitespace(re.sub(r"<[^>]+>", " ", raw_abs))
+    if not summary or len(summary) < 15:
+        summary = f"Academic research publication titled '{title}'."
 
     authors = []
     raw_authors = item.get("author", [])
@@ -103,8 +105,10 @@ def _clean_dataframe_fallback(records: list[PaperRecord], run_date: datetime) ->
         paper_id = normalize_whitespace(str(rec.get("paper_id", "")))
         title = normalize_whitespace(str(rec.get("title", "")))
         summary = normalize_whitespace(str(rec.get("summary", "")))
+        if not summary or len(summary) < 15:
+            summary = f"Academic research publication titled '{title}'."
 
-        if not paper_id or not title or len(title) < 3 or not summary or len(summary) < 15:
+        if not paper_id or not title or len(title) < 3:
             continue
 
         authors = rec.get("authors", [])

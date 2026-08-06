@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "q_1",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'Brain Organoids and the Law'?",
+    "ground_truth": "Academic research publication titled 'Brain Organoids and the Law'.",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-72371-1_11"
+    ],
+    "answer": "Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-319-19932-0_5",
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-030-05784-8_6",
+      "10.1007/978-3-031-28170-9_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: "
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.4800000000000001,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_2",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Brain Organoids and the Law'?",
+    "ground_truth": "Adithi Iyer",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-72371-1_11"
+    ],
+    "answer": "Moaine El Baidouri, Olivier Panaud",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-319-19932-0_5",
+      "10.1016/b978-0-08-102696-0.00020-8",
+      "10.1007/978-3-030-05784-8_6",
+      "10.1057/9780230244870_1"
+    ],
+    "retrieved_contexts": [
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures\nAuthors: D. Zonta\nCategories: Computer Science\nPublished: 2010-01-01\nSummary: Academic research publication titled 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'.",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'.",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'."
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_3",
+    "question_type": "date",
+    "question": "When was the paper 'Brain Organoids and the Law' published?",
+    "ground_truth": "2024-11-20",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-72371-1_11"
+    ],
+    "answer": "2015-07-11",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-319-19932-0_5",
+      "10.1016/b978-0-08-102696-0.00020-8",
+      "10.1007/978-3-030-05784-8_6",
+      "10.1007/978-3-031-28170-9_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures\nAuthors: D. Zonta\nCategories: Computer Science\nPublished: 2010-01-01\nSummary: Academic research publication titled 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'.",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: "
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_4",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Brain Organoids and the Law' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-72371-1_11"
+    ],
+    "answer": "Computer Science",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-319-19932-0_5",
+      "10.1016/b978-0-08-102696-0.00020-8",
+      "10.1007/978-3-030-05784-8_6",
+      "10.1007/978-81-322-2752-6_56"
+    ],
+    "retrieved_contexts": [
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures\nAuthors: D. Zonta\nCategories: Computer Science\nPublished: 2010-01-01\nSummary: Academic research publication titled 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'.",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'.",
+      "Title: An Improved Content Based Medical Image Retrieval System Using Integrated Steerable Texture Components and User Interactive Feedback Method\nAuthors: B. Jyothi, Y. Madhavee Latha, P. G. Krishna Mohan\nCategories: Computer Science\nPublished: 2016-02-03\nSummary: Academic research publication titled 'An Improved Content Based Medical Image Retrieval System Using Integrated Steerable Texture Components and User Interactive Feedback Method'."
+    ],
+    "retrieval_hit": false,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_5",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'Elites'?",
+    "ground_truth": "Academic research publication titled 'Elites'.",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-32152-8_30"
+    ],
+    "answer": "Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-319-19932-0_5",
+      "10.1007/978-3-031-28170-9_6",
+      "10.1007/978-3-031-28170-9_6",
+      "10.1057/9780230244870_1"
+    ],
+    "retrieved_contexts": [
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'."
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.38095238095238093,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_6",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Elites'?",
+    "ground_truth": "Alejandro Pelfini",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-32152-8_30"
+    ],
+    "answer": "Sari Kivist\u00f6",
+    "retrieved_doc_ids": [
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-030-05784-8_6",
+      "10.1007/978-3-319-19932-0_5",
+      "10.1007/978-3-031-28170-9_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'.",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: "
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_7",
+    "question_type": "date",
+    "question": "When was the paper 'Elites' published?",
+    "ground_truth": "2024-11-20",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-32152-8_30"
+    ],
+    "answer": "2009-01-01",
+    "retrieved_doc_ids": [
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-031-28170-9_6",
+      "10.1007/978-3-031-28170-9_6",
+      "10.1007/978-3-030-05784-8_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'."
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_8",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Elites' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-32152-8_30"
+    ],
+    "answer": "Computer Science",
+    "retrieved_doc_ids": [
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-030-05784-8_6",
+      "10.1007/978-3-319-19932-0_5",
+      "10.1007/978-3-031-28170-9_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'.",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: "
+    ],
+    "retrieval_hit": false,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_9",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'Loot Crates'?",
+    "ground_truth": "Academic research publication titled 'Loot Crates'.",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-23161-2_300726"
+    ],
+    "answer": "",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-031-23161-2_300726",
+      "10.1007/978-3-319-19932-0_5",
+      "10.1007/978-3-031-28170-9_6",
+      "10.1007/978-3-031-28170-9_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Loot Crates\nAuthors: Unknown Author\nCategories: Computer Science\nPublished: 2024-01-05\nSummary: ",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: "
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_10",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Loot Crates'?",
+    "ground_truth": "Unknown Author",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-23161-2_300726"
+    ],
+    "answer": "Unknown Author",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-031-23161-2_300726",
+      "10.1007/978-3-319-19932-0_5",
+      "10.1016/b978-0-08-102696-0.00020-8",
+      "10.1007/978-981-16-8679-5_306"
+    ],
+    "retrieved_contexts": [
+      "Title: Loot Crates\nAuthors: Unknown Author\nCategories: Computer Science\nPublished: 2024-01-05\nSummary: ",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures\nAuthors: D. Zonta\nCategories: Computer Science\nPublished: 2010-01-01\nSummary: Academic research publication titled 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'.",
+      "Title: Teaching\nAuthors: Mark Ginsburg, Rosa Maria Mass\u00f3n Cruz, Emigdio Rodr\u00edguez Alfonso, Yuitana Garc\u00eda Isaac\nCategories: Computer Science\nPublished: 2022-08-27\nSummary: Academic research publication titled 'Teaching Comparative Education in Cuba and the United States'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_11",
+    "question_type": "date",
+    "question": "When was the paper 'Loot Crates' published?",
+    "ground_truth": "2024-01-05",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-23161-2_300726"
+    ],
+    "answer": "2024-01-05",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-031-23161-2_300726",
+      "10.1007/978-3-319-19932-0_5",
+      "10.1007/978-981-16-8679-5_306",
+      "10.1016/b978-0-08-102696-0.00020-8"
+    ],
+    "retrieved_contexts": [
+      "Title: Loot Crates\nAuthors: Unknown Author\nCategories: Computer Science\nPublished: 2024-01-05\nSummary: ",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: Teaching\nAuthors: Mark Ginsburg, Rosa Maria Mass\u00f3n Cruz, Emigdio Rodr\u00edguez Alfonso, Yuitana Garc\u00eda Isaac\nCategories: Computer Science\nPublished: 2022-08-27\nSummary: Academic research publication titled 'Teaching Comparative Education in Cuba and the United States'.",
+      "Title: Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures\nAuthors: D. Zonta\nCategories: Computer Science\nPublished: 2010-01-01\nSummary: Academic research publication titled 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_12",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Loot Crates' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-23161-2_300726"
+    ],
+    "answer": "Computer Science",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-031-23161-2_300726",
+      "10.1007/978-3-319-19932-0_5",
+      "10.1007/978-981-16-8679-5_306",
+      "10.1016/b978-0-08-102696-0.00020-8"
+    ],
+    "retrieved_contexts": [
+      "Title: Loot Crates\nAuthors: Unknown Author\nCategories: Computer Science\nPublished: 2024-01-05\nSummary: ",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: Teaching\nAuthors: Mark Ginsburg, Rosa Maria Mass\u00f3n Cruz, Emigdio Rodr\u00edguez Alfonso, Yuitana Garc\u00eda Isaac\nCategories: Computer Science\nPublished: 2022-08-27\nSummary: Academic research publication titled 'Teaching Comparative Education in Cuba and the United States'.",
+      "Title: Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures\nAuthors: D. Zonta\nCategories: Computer Science\nPublished: 2010-01-01\nSummary: Academic research publication titled 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_13",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'The Fiscal Treatment of Family Size: A Further Look'?",
+    "ground_truth": "Academic research publication titled 'The Fiscal Treatment of Family Size: A Further Look'.",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-28170-9_6"
+    ],
+    "answer": "",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-031-28170-9_6",
+      "10.1007/978-3-030-05784-8_6",
+      "10.1007/978-981-15-1636-8_42"
+    ],
+    "retrieved_contexts": [
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'.",
+      "Title: Mutagenic Effect of Chemicals on Certain Biochemical Parameters in Two Cultivars of Sunflower (Helianthus annuus L.)\nAuthors: T. Padmavathi, M. Uma Devi, B. Prathibha Devi\nCategories: Computer Science\nPublished: 2020-04-04\nSummary: Academic research publication titled 'Mutagenic Effect of Chemicals on Certain Biochemical Parameters in Two Cultivars of Sunflower (Helianthus annuus L.)'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_14",
+    "question_type": "authors",
+    "question": "Who authored the paper 'The Fiscal Treatment of Family Size: A Further Look'?",
+    "ground_truth": "Alessandro Balestrino",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-28170-9_6"
+    ],
+    "answer": "Alessandro Balestrino",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-031-28170-9_6",
+      "10.1007/978-3-030-05784-8_6",
+      "10.1007/978-981-15-1636-8_42"
+    ],
+    "retrieved_contexts": [
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'.",
+      "Title: Mutagenic Effect of Chemicals on Certain Biochemical Parameters in Two Cultivars of Sunflower (Helianthus annuus L.)\nAuthors: T. Padmavathi, M. Uma Devi, B. Prathibha Devi\nCategories: Computer Science\nPublished: 2020-04-04\nSummary: Academic research publication titled 'Mutagenic Effect of Chemicals on Certain Biochemical Parameters in Two Cultivars of Sunflower (Helianthus annuus L.)'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_15",
+    "question_type": "date",
+    "question": "When was the paper 'The Fiscal Treatment of Family Size: A Further Look' published?",
+    "ground_truth": "2023-04-27",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-28170-9_6"
+    ],
+    "answer": "2023-04-27",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-031-28170-9_6",
+      "10.1007/978-3-030-05784-8_6",
+      "10.1007/978-3-642-33832-8_41"
+    ],
+    "retrieved_contexts": [
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'.",
+      "Title: Disturbing Noise Identification and Sound Quality Research on Car Generator\nAuthors: Yanfang Hou, Guohua Han, Yaozhen Zhao, Xueying Xu\nCategories: Computer Science\nPublished: 2012-11-07\nSummary: Academic research publication titled 'Disturbing Noise Identification and Sound Quality Research on Car Generator'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_16",
+    "question_type": "categories",
+    "question": "What categories does the paper 'The Fiscal Treatment of Family Size: A Further Look' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-031-28170-9_6"
+    ],
+    "answer": "Computer Science",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-031-28170-9_6",
+      "10.1007/978-3-030-05784-8_6",
+      "10.1007/978-981-15-1636-8_42"
+    ],
+    "retrieved_contexts": [
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'.",
+      "Title: Mutagenic Effect of Chemicals on Certain Biochemical Parameters in Two Cultivars of Sunflower (Helianthus annuus L.)\nAuthors: T. Padmavathi, M. Uma Devi, B. Prathibha Devi\nCategories: Computer Science\nPublished: 2020-04-04\nSummary: Academic research publication titled 'Mutagenic Effect of Chemicals on Certain Biochemical Parameters in Two Cultivars of Sunflower (Helianthus annuus L.)'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_17",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'Interkulturelles Zusammenleben'?",
+    "ground_truth": "Academic research publication titled 'Interkulturelles Zusammenleben'.",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-476-05869-0_72"
+    ],
+    "answer": "[CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] Academic research publication titled 'Interkulturelles Zusammenleben'.",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-476-05869-0_72",
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-031-28170-9_6",
+      "10.1007/978-3-031-28170-9_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Interkulturelles Zusammenleben\nAuthors: Valentin Beck\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] Academic research publication titled 'Interkulturelles Zusammenleben'.",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: "
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.6666666666666666,
+    "judge": {
+      "score": 3,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_18",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Interkulturelles Zusammenleben'?",
+    "ground_truth": "Valentin Beck",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-476-05869-0_72"
+    ],
+    "answer": "Valentin Beck",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-476-05869-0_72",
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-031-28170-9_6",
+      "10.1007/978-3-031-28170-9_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Interkulturelles Zusammenleben\nAuthors: Valentin Beck\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] Academic research publication titled 'Interkulturelles Zusammenleben'.",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: "
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_19",
+    "question_type": "date",
+    "question": "When was the paper 'Interkulturelles Zusammenleben' published?",
+    "ground_truth": "2023-04-27",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-476-05869-0_72"
+    ],
+    "answer": "2023-04-27",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-476-05869-0_72",
+      "10.1007/978-3-031-28170-9_6",
+      "10.1007/978-3-031-28170-9_6",
+      "10.1057/9780230244870_1"
+    ],
+    "retrieved_contexts": [
+      "Title: Interkulturelles Zusammenleben\nAuthors: Valentin Beck\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] Academic research publication titled 'Interkulturelles Zusammenleben'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_20",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Interkulturelles Zusammenleben' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-476-05869-0_72"
+    ],
+    "answer": "Computer Science",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-476-05869-0_72",
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-031-28170-9_6",
+      "10.1007/978-3-031-28170-9_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Interkulturelles Zusammenleben\nAuthors: Valentin Beck\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] Academic research publication titled 'Interkulturelles Zusammenleben'.",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: "
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_21",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'Gesetzliche Regelungen f\u00fcr Auszeiten'?",
+    "ground_truth": "Academic research publication titled 'Gesetzliche Regelungen f\u00fcr Auszeiten'.",
+    "ground_truth_doc_ids": [
+      "10.34157/978-3-648-16750-2_3"
+    ],
+    "answer": "[CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] Academic research publication titled 'Gesetzliche Regelungen f\u00fcr Auszeiten'.",
+    "retrieved_doc_ids": [
+      "10.34157/978-3-648-16750-2_3",
+      "10.1007/978-3-319-19932-0_5",
+      "10.1007/978-981-15-1636-8_42",
+      "10.1007/978-3-030-05784-8_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Gesetzliche Regelungen f\u00fcr Auszeiten\nAuthors: Britta Redmann\nCategories: Computer Science\nPublished: 2023-01-01\nSummary: [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] Academic research publication titled 'Gesetzliche Regelungen f\u00fcr Auszeiten'.",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: Mutagenic Effect of Chemicals on Certain Biochemical Parameters in Two Cultivars of Sunflower (Helianthus annuus L.)\nAuthors: T. Padmavathi, M. Uma Devi, B. Prathibha Devi\nCategories: Computer Science\nPublished: 2020-04-04\nSummary: Academic research publication titled 'Mutagenic Effect of Chemicals on Certain Biochemical Parameters in Two Cultivars of Sunflower (Helianthus annuus L.)'.",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.7272727272727273,
+    "judge": {
+      "score": 3,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_22",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Gesetzliche Regelungen f\u00fcr Auszeiten'?",
+    "ground_truth": "Britta Redmann",
+    "ground_truth_doc_ids": [
+      "10.34157/978-3-648-16750-2_3"
+    ],
+    "answer": "Britta Redmann",
+    "retrieved_doc_ids": [
+      "10.34157/978-3-648-16750-2_3",
+      "10.1007/978-3-030-05784-8_6",
+      "10.1007/978-3-319-19932-0_5",
+      "10.1007/978-981-16-8679-5_306"
+    ],
+    "retrieved_contexts": [
+      "Title: Gesetzliche Regelungen f\u00fcr Auszeiten\nAuthors: Britta Redmann\nCategories: Computer Science\nPublished: 2023-01-01\nSummary: [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] Academic research publication titled 'Gesetzliche Regelungen f\u00fcr Auszeiten'.",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'.",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: Teaching\nAuthors: Mark Ginsburg, Rosa Maria Mass\u00f3n Cruz, Emigdio Rodr\u00edguez Alfonso, Yuitana Garc\u00eda Isaac\nCategories: Computer Science\nPublished: 2022-08-27\nSummary: Academic research publication titled 'Teaching Comparative Education in Cuba and the United States'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_23",
+    "question_type": "date",
+    "question": "When was the paper 'Gesetzliche Regelungen f\u00fcr Auszeiten' published?",
+    "ground_truth": "2023-01-01",
+    "ground_truth_doc_ids": [
+      "10.34157/978-3-648-16750-2_3"
+    ],
+    "answer": "2023-01-01",
+    "retrieved_doc_ids": [
+      "10.34157/978-3-648-16750-2_3",
+      "10.1007/978-3-030-05784-8_6",
+      "10.1007/978-3-031-28170-9_6",
+      "10.1007/978-3-031-28170-9_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Gesetzliche Regelungen f\u00fcr Auszeiten\nAuthors: Britta Redmann\nCategories: Computer Science\nPublished: 2023-01-01\nSummary: [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] Academic research publication titled 'Gesetzliche Regelungen f\u00fcr Auszeiten'.",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: "
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_24",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Gesetzliche Regelungen f\u00fcr Auszeiten' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.34157/978-3-648-16750-2_3"
+    ],
+    "answer": "Computer Science",
+    "retrieved_doc_ids": [
+      "10.34157/978-3-648-16750-2_3",
+      "10.1007/978-3-030-05784-8_6",
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-319-19932-0_5"
+    ],
+    "retrieved_contexts": [
+      "Title: Gesetzliche Regelungen f\u00fcr Auszeiten\nAuthors: Britta Redmann\nCategories: Computer Science\nPublished: 2023-01-01\nSummary: [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] Academic research publication titled 'Gesetzliche Regelungen f\u00fcr Auszeiten'.",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'.",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_25",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'Teaching Comparative Education in Cuba and the United States'?",
+    "ground_truth": "Academic research publication titled 'Teaching Comparative Education in Cuba and the United States'.",
+    "ground_truth_doc_ids": [
+      "10.1007/978-981-16-8679-5_306"
+    ],
+    "answer": "Academic research publication titled 'Teaching Comparative Education in Cuba and the United States'.",
+    "retrieved_doc_ids": [
+      "10.1007/978-981-16-8679-5_306",
+      "10.1007/978-3-319-19932-0_5",
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-031-28170-9_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Teaching\nAuthors: Mark Ginsburg, Rosa Maria Mass\u00f3n Cruz, Emigdio Rodr\u00edguez Alfonso, Yuitana Garc\u00eda Isaac\nCategories: Computer Science\nPublished: 2022-08-27\nSummary: Academic research publication titled 'Teaching Comparative Education in Cuba and the United States'.",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: "
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_26",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Teaching Comparative Education in Cuba and the United States'?",
+    "ground_truth": "Mark Ginsburg, Rosa Maria Mass\u00f3n Cruz, Emigdio Rodr\u00edguez Alfonso, Yuitana Garc\u00eda Isaac",
+    "ground_truth_doc_ids": [
+      "10.1007/978-981-16-8679-5_306"
+    ],
+    "answer": "Mark Ginsburg, Rosa Maria Mass\u00f3n Cruz, Emigdio Rodr\u00edguez Alfonso, Yuitana Garc\u00eda Isaac",
+    "retrieved_doc_ids": [
+      "10.1007/978-981-16-8679-5_306",
+      "10.1007/978-3-319-19932-0_5",
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-030-05784-8_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Teaching\nAuthors: Mark Ginsburg, Rosa Maria Mass\u00f3n Cruz, Emigdio Rodr\u00edguez Alfonso, Yuitana Garc\u00eda Isaac\nCategories: Computer Science\nPublished: 2022-08-27\nSummary: Academic research publication titled 'Teaching Comparative Education in Cuba and the United States'.",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_27",
+    "question_type": "date",
+    "question": "When was the paper 'Teaching Comparative Education in Cuba and the United States' published?",
+    "ground_truth": "2022-08-27",
+    "ground_truth_doc_ids": [
+      "10.1007/978-981-16-8679-5_306"
+    ],
+    "answer": "2022-08-27",
+    "retrieved_doc_ids": [
+      "10.1007/978-981-16-8679-5_306",
+      "10.1007/978-3-319-19932-0_5",
+      "10.1007/978-3-031-28170-9_6",
+      "10.1007/978-3-031-28170-9_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Teaching\nAuthors: Mark Ginsburg, Rosa Maria Mass\u00f3n Cruz, Emigdio Rodr\u00edguez Alfonso, Yuitana Garc\u00eda Isaac\nCategories: Computer Science\nPublished: 2022-08-27\nSummary: Academic research publication titled 'Teaching Comparative Education in Cuba and the United States'.",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: "
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_28",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Teaching Comparative Education in Cuba and the United States' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.1007/978-981-16-8679-5_306"
+    ],
+    "answer": "Computer Science",
+    "retrieved_doc_ids": [
+      "10.1007/978-981-16-8679-5_306",
+      "10.1007/978-3-319-19932-0_5",
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-030-05784-8_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Teaching\nAuthors: Mark Ginsburg, Rosa Maria Mass\u00f3n Cruz, Emigdio Rodr\u00edguez Alfonso, Yuitana Garc\u00eda Isaac\nCategories: Computer Science\nPublished: 2022-08-27\nSummary: Academic research publication titled 'Teaching Comparative Education in Cuba and the United States'.",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_29",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'Extensions'?",
+    "ground_truth": "Academic research publication titled 'Extensions'.",
+    "ground_truth_doc_ids": [
+      "10.1007/978-1-4842-7310-4_15"
+    ],
+    "answer": "Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-319-19932-0_5",
+      "10.1007/978-3-031-28170-9_6",
+      "10.1007/978-3-031-28170-9_6",
+      "10.1057/9780230244870_1"
+    ],
+    "retrieved_contexts": [
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'."
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.38095238095238093,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_30",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Extensions'?",
+    "ground_truth": "Bauke Scholtz, Arjan Tijms",
+    "ground_truth_doc_ids": [
+      "10.1007/978-1-4842-7310-4_15"
+    ],
+    "answer": "Sari Kivist\u00f6",
+    "retrieved_doc_ids": [
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-030-05784-8_6",
+      "10.1007/978-3-319-19932-0_5",
+      "10.1007/978-3-031-28170-9_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'.",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: "
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_31",
+    "question_type": "date",
+    "question": "When was the paper 'Extensions' published?",
+    "ground_truth": "2022-03-16",
+    "ground_truth_doc_ids": [
+      "10.1007/978-1-4842-7310-4_15"
+    ],
+    "answer": "2023-04-27",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-031-28170-9_6",
+      "10.1007/978-3-031-28170-9_6",
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-030-05784-8_6"
+    ],
+    "retrieved_contexts": [
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'."
+    ],
+    "retrieval_hit": false,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_32",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Extensions' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.1007/978-1-4842-7310-4_15"
+    ],
+    "answer": "Computer Science",
+    "retrieved_doc_ids": [
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-030-05784-8_6",
+      "10.1007/978-3-319-19932-0_5",
+      "10.1007/978-3-031-28170-9_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'.",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: "
+    ],
+    "retrieval_hit": false,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_33",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'?",
+    "ground_truth": "Academic research publication titled 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'.",
+    "ground_truth_doc_ids": [
+      "10.1016/b978-0-08-102696-0.00020-8"
+    ],
+    "answer": "Academic research publication titled 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'.",
+    "retrieved_doc_ids": [
+      "10.1016/b978-0-08-102696-0.00020-8",
+      "10.1007/978-3-319-19932-0_5",
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-030-05784-8_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures\nAuthors: D. Zonta\nCategories: Computer Science\nPublished: 2010-01-01\nSummary: Academic research publication titled 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'.",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_34",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'?",
+    "ground_truth": "D. Zonta",
+    "ground_truth_doc_ids": [
+      "10.1016/b978-0-08-102696-0.00020-8"
+    ],
+    "answer": "D. Zonta",
+    "retrieved_doc_ids": [
+      "10.1016/b978-0-08-102696-0.00020-8",
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-642-33832-8_41",
+      "10.1007/978-3-319-19932-0_5"
+    ],
+    "retrieved_contexts": [
+      "Title: Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures\nAuthors: D. Zonta\nCategories: Computer Science\nPublished: 2010-01-01\nSummary: Academic research publication titled 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'.",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: Disturbing Noise Identification and Sound Quality Research on Car Generator\nAuthors: Yanfang Hou, Guohua Han, Yaozhen Zhao, Xueying Xu\nCategories: Computer Science\nPublished: 2012-11-07\nSummary: Academic research publication titled 'Disturbing Noise Identification and Sound Quality Research on Car Generator'.",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_35",
+    "question_type": "date",
+    "question": "When was the paper 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures' published?",
+    "ground_truth": "2022-01-01",
+    "ground_truth_doc_ids": [
+      "10.1016/b978-0-08-102696-0.00020-8"
+    ],
+    "answer": "2010-01-01",
+    "retrieved_doc_ids": [
+      "10.1016/b978-0-08-102696-0.00020-8",
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-642-33832-8_41",
+      "10.1007/978-3-319-19932-0_5"
+    ],
+    "retrieved_contexts": [
+      "Title: Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures\nAuthors: D. Zonta\nCategories: Computer Science\nPublished: 2010-01-01\nSummary: Academic research publication titled 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'.",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: Disturbing Noise Identification and Sound Quality Research on Car Generator\nAuthors: Yanfang Hou, Guohua Han, Yaozhen Zhao, Xueying Xu\nCategories: Computer Science\nPublished: 2012-11-07\nSummary: Academic research publication titled 'Disturbing Noise Identification and Sound Quality Research on Car Generator'.",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_36",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.1016/b978-0-08-102696-0.00020-8"
+    ],
+    "answer": "Computer Science",
+    "retrieved_doc_ids": [
+      "10.1016/b978-0-08-102696-0.00020-8",
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-642-33832-8_41",
+      "10.1007/978-3-319-19932-0_5"
+    ],
+    "retrieved_contexts": [
+      "Title: Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures\nAuthors: D. Zonta\nCategories: Computer Science\nPublished: 2010-01-01\nSummary: Academic research publication titled 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'.",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: Disturbing Noise Identification and Sound Quality Research on Car Generator\nAuthors: Yanfang Hou, Guohua Han, Yaozhen Zhao, Xueying Xu\nCategories: Computer Science\nPublished: 2012-11-07\nSummary: Academic research publication titled 'Disturbing Noise Identification and Sound Quality Research on Car Generator'.",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_37",
+    "question_type": "summary",
+    "question": "What is the main focus of the paper 'Bingham, Hiram (1875\u20131956)'?",
+    "ground_truth": "Academic research publication titled 'Bingham, Hiram (1875\u20131956)'.",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-030-58292-0_20395"
+    ],
+    "answer": "Academic research publication titled 'Bingham, Hiram (1875\u20131956)'.",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-030-58292-0_20395",
+      "10.1007/978-3-319-19932-0_5",
+      "10.1007/978-3-031-28170-9_6",
+      "10.1007/978-3-031-28170-9_6"
+    ],
+    "retrieved_contexts": [
+      "Title: Bingham, Hiram (1875\u20131956)\nAuthors: Unknown Author\nCategories: Computer Science\nPublished: 2010-01-01\nSummary: Academic research publication titled 'Bingham, Hiram (1875\u20131956)'.",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: "
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_38",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Bingham, Hiram (1875\u20131956)'?",
+    "ground_truth": "Unknown Author",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-030-58292-0_20395"
+    ],
+    "answer": "Unknown Author",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-030-58292-0_20395",
+      "10.1007/978-3-476-05869-0_72",
+      "10.1057/9780230244870_1",
+      "10.34157/978-3-648-16750-2_3"
+    ],
+    "retrieved_contexts": [
+      "Title: Bingham, Hiram (1875\u20131956)\nAuthors: Unknown Author\nCategories: Computer Science\nPublished: 2010-01-01\nSummary: Academic research publication titled 'Bingham, Hiram (1875\u20131956)'.",
+      "Title: Interkulturelles Zusammenleben\nAuthors: Valentin Beck\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] Academic research publication titled 'Interkulturelles Zusammenleben'.",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: Gesetzliche Regelungen f\u00fcr Auszeiten\nAuthors: Britta Redmann\nCategories: Computer Science\nPublished: 2023-01-01\nSummary: [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] [CORRUPTED NOISE %$&*^#@ DATA PIPELINE BUG] Academic research publication titled 'Gesetzliche Regelungen f\u00fcr Auszeiten'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_39",
+    "question_type": "date",
+    "question": "When was the paper 'Bingham, Hiram (1875\u20131956)' published?",
+    "ground_truth": "2021-05-01",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-030-58292-0_20395"
+    ],
+    "answer": "2010-01-01",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-030-58292-0_20395",
+      "10.1007/978-3-031-28170-9_6",
+      "10.1007/978-3-031-28170-9_6",
+      "10.1057/9780230244870_1"
+    ],
+    "retrieved_contexts": [
+      "Title: Bingham, Hiram (1875\u20131956)\nAuthors: Unknown Author\nCategories: Computer Science\nPublished: 2010-01-01\nSummary: Academic research publication titled 'Bingham, Hiram (1875\u20131956)'.",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: ",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 0.0,
+    "judge": {
+      "score": 1,
+      "correct": false,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  },
+  {
+    "id": "q_40",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Bingham, Hiram (1875\u20131956)' belong to?",
+    "ground_truth": "Computer Science",
+    "ground_truth_doc_ids": [
+      "10.1007/978-3-030-58292-0_20395"
+    ],
+    "answer": "Computer Science",
+    "retrieved_doc_ids": [
+      "10.1007/978-3-030-58292-0_20395",
+      "10.1057/9780230244870_1",
+      "10.1007/978-3-030-05784-8_6",
+      "10.1007/978-3-319-19932-0_5"
+    ],
+    "retrieved_contexts": [
+      "Title: Bingham, Hiram (1875\u20131956)\nAuthors: Unknown Author\nCategories: Computer Science\nPublished: 2010-01-01\nSummary: Academic research publication titled 'Bingham, Hiram (1875\u20131956)'.",
+      "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'.",
+      "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'."
+    ],
+    "retrieval_hit": true,
+    "token_f1": 1.0,
+    "judge": {
+      "score": 5,
+      "correct": true,
+      "reasoning": "Fallback heuristic judge used because the LLM evaluator was unavailable."
+    }
+  }
+]

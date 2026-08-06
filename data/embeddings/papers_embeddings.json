@@ -1,0 +1,328 @@
+{
+  "backend": "chroma",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "persist_path": "/home/khanh/Data/vin_uni/codelabs/K4_Day10_Data-Pipeline-Data-Observability/data/chroma",
+  "collection_name": "papers-baseline",
+  "documents": [
+    {
+      "record_id": "10.1007/978-3-031-72371-1_11::0",
+      "paper_id": "10.1007/978-3-031-72371-1_11",
+      "title": "Brain Organoids and the Law",
+      "content": "Title: Brain Organoids and the Law\nAuthors: Adithi Iyer\nCategories: Computer Science\nPublished: 2024-11-20\nSummary: Academic research publication titled 'Brain Organoids and the Law'.",
+      "metadata": {
+        "paper_id": "10.1007/978-3-031-72371-1_11",
+        "title": "Brain Organoids and the Law",
+        "published": "2024-11-20",
+        "authors_joined": "Adithi Iyer",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'Brain Organoids and the Law'.",
+        "abs_url": "https://doi.org/10.1007/978-3-031-72371-1_11",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.1007/978-3-031-32152-8_30::1",
+      "paper_id": "10.1007/978-3-031-32152-8_30",
+      "title": "Elites",
+      "content": "Title: Elites\nAuthors: Alejandro Pelfini\nCategories: Computer Science\nPublished: 2024-11-20\nSummary: Academic research publication titled 'Elites'.",
+      "metadata": {
+        "paper_id": "10.1007/978-3-031-32152-8_30",
+        "title": "Elites",
+        "published": "2024-11-20",
+        "authors_joined": "Alejandro Pelfini",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'Elites'.",
+        "abs_url": "https://doi.org/10.1007/978-3-031-32152-8_30",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.1007/978-3-031-23161-2_300726::2",
+      "paper_id": "10.1007/978-3-031-23161-2_300726",
+      "title": "Loot Crates",
+      "content": "Title: Loot Crates\nAuthors: Unknown Author\nCategories: Computer Science\nPublished: 2024-01-05\nSummary: Academic research publication titled 'Loot Crates'.",
+      "metadata": {
+        "paper_id": "10.1007/978-3-031-23161-2_300726",
+        "title": "Loot Crates",
+        "published": "2024-01-05",
+        "authors_joined": "Unknown Author",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'Loot Crates'.",
+        "abs_url": "https://doi.org/10.1007/978-3-031-23161-2_300726",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.1007/978-3-031-28170-9_6::3",
+      "paper_id": "10.1007/978-3-031-28170-9_6",
+      "title": "The Fiscal Treatment of Family Size: A Further Look",
+      "content": "Title: The Fiscal Treatment of Family Size: A Further Look\nAuthors: Alessandro Balestrino\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: Academic research publication titled 'The Fiscal Treatment of Family Size: A Further Look'.",
+      "metadata": {
+        "paper_id": "10.1007/978-3-031-28170-9_6",
+        "title": "The Fiscal Treatment of Family Size: A Further Look",
+        "published": "2023-04-27",
+        "authors_joined": "Alessandro Balestrino",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'The Fiscal Treatment of Family Size: A Further Look'.",
+        "abs_url": "https://doi.org/10.1007/978-3-031-28170-9_6",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.1007/978-3-476-05869-0_72::4",
+      "paper_id": "10.1007/978-3-476-05869-0_72",
+      "title": "Interkulturelles Zusammenleben",
+      "content": "Title: Interkulturelles Zusammenleben\nAuthors: Valentin Beck\nCategories: Computer Science\nPublished: 2023-04-27\nSummary: Academic research publication titled 'Interkulturelles Zusammenleben'.",
+      "metadata": {
+        "paper_id": "10.1007/978-3-476-05869-0_72",
+        "title": "Interkulturelles Zusammenleben",
+        "published": "2023-04-27",
+        "authors_joined": "Valentin Beck",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'Interkulturelles Zusammenleben'.",
+        "abs_url": "https://doi.org/10.1007/978-3-476-05869-0_72",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.34157/978-3-648-16750-2_3::5",
+      "paper_id": "10.34157/978-3-648-16750-2_3",
+      "title": "Gesetzliche Regelungen f\u00fcr Auszeiten",
+      "content": "Title: Gesetzliche Regelungen f\u00fcr Auszeiten\nAuthors: Britta Redmann\nCategories: Computer Science\nPublished: 2023-01-01\nSummary: Academic research publication titled 'Gesetzliche Regelungen f\u00fcr Auszeiten'.",
+      "metadata": {
+        "paper_id": "10.34157/978-3-648-16750-2_3",
+        "title": "Gesetzliche Regelungen f\u00fcr Auszeiten",
+        "published": "2023-01-01",
+        "authors_joined": "Britta Redmann",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'Gesetzliche Regelungen f\u00fcr Auszeiten'.",
+        "abs_url": "https://doi.org/10.34157/978-3-648-16750-2_3",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.1007/978-981-16-8679-5_306::6",
+      "paper_id": "10.1007/978-981-16-8679-5_306",
+      "title": "Teaching Comparative Education in Cuba and the United States",
+      "content": "Title: Teaching Comparative Education in Cuba and the United States\nAuthors: Mark Ginsburg, Rosa Maria Mass\u00f3n Cruz, Emigdio Rodr\u00edguez Alfonso, Yuitana Garc\u00eda Isaac\nCategories: Computer Science\nPublished: 2022-08-27\nSummary: Academic research publication titled 'Teaching Comparative Education in Cuba and the United States'.",
+      "metadata": {
+        "paper_id": "10.1007/978-981-16-8679-5_306",
+        "title": "Teaching Comparative Education in Cuba and the United States",
+        "published": "2022-08-27",
+        "authors_joined": "Mark Ginsburg, Rosa Maria Mass\u00f3n Cruz, Emigdio Rodr\u00edguez Alfonso, Yuitana Garc\u00eda Isaac",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'Teaching Comparative Education in Cuba and the United States'.",
+        "abs_url": "https://doi.org/10.1007/978-981-16-8679-5_306",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.1007/978-1-4842-7310-4_15::7",
+      "paper_id": "10.1007/978-1-4842-7310-4_15",
+      "title": "Extensions",
+      "content": "Title: Extensions\nAuthors: Bauke Scholtz, Arjan Tijms\nCategories: Computer Science\nPublished: 2022-03-16\nSummary: Academic research publication titled 'Extensions'.",
+      "metadata": {
+        "paper_id": "10.1007/978-1-4842-7310-4_15",
+        "title": "Extensions",
+        "published": "2022-03-16",
+        "authors_joined": "Bauke Scholtz, Arjan Tijms",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'Extensions'.",
+        "abs_url": "https://doi.org/10.1007/978-1-4842-7310-4_15",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.1016/b978-0-08-102696-0.00020-8::8",
+      "paper_id": "10.1016/b978-0-08-102696-0.00020-8",
+      "title": "Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures",
+      "content": "Title: Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures\nAuthors: D. Zonta\nCategories: Computer Science\nPublished: 2022-01-01\nSummary: Academic research publication titled 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'.",
+      "metadata": {
+        "paper_id": "10.1016/b978-0-08-102696-0.00020-8",
+        "title": "Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures",
+        "published": "2022-01-01",
+        "authors_joined": "D. Zonta",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'Sensor data analysis, reduction, and fusion for assessing and monitoring civil infrastructures'.",
+        "abs_url": "https://doi.org/10.1016/b978-0-08-102696-0.00020-8",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.1007/978-3-030-58292-0_20395::9",
+      "paper_id": "10.1007/978-3-030-58292-0_20395",
+      "title": "Bingham, Hiram (1875\u20131956)",
+      "content": "Title: Bingham, Hiram (1875\u20131956)\nAuthors: Unknown Author\nCategories: Computer Science\nPublished: 2021-05-01\nSummary: Academic research publication titled 'Bingham, Hiram (1875\u20131956)'.",
+      "metadata": {
+        "paper_id": "10.1007/978-3-030-58292-0_20395",
+        "title": "Bingham, Hiram (1875\u20131956)",
+        "published": "2021-05-01",
+        "authors_joined": "Unknown Author",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'Bingham, Hiram (1875\u20131956)'.",
+        "abs_url": "https://doi.org/10.1007/978-3-030-58292-0_20395",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.1007/978-3-319-52090-2_300304::10",
+      "paper_id": "10.1007/978-3-319-52090-2_300304",
+      "title": "PG Bag (Personal Gear Bag)",
+      "content": "Title: PG Bag (Personal Gear Bag)\nAuthors: Unknown Author\nCategories: Computer Science\nPublished: 2020-07-29\nSummary: Academic research publication titled 'PG Bag (Personal Gear Bag)'.",
+      "metadata": {
+        "paper_id": "10.1007/978-3-319-52090-2_300304",
+        "title": "PG Bag (Personal Gear Bag)",
+        "published": "2020-07-29",
+        "authors_joined": "Unknown Author",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'PG Bag (Personal Gear Bag)'.",
+        "abs_url": "https://doi.org/10.1007/978-3-319-52090-2_300304",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.1007/978-981-15-1636-8_42::11",
+      "paper_id": "10.1007/978-981-15-1636-8_42",
+      "title": "Mutagenic Effect of Chemicals on Certain Biochemical Parameters in Two Cultivars of Sunflower (Helianthus annuus L.)",
+      "content": "Title: Mutagenic Effect of Chemicals on Certain Biochemical Parameters in Two Cultivars of Sunflower (Helianthus annuus L.)\nAuthors: T. Padmavathi, M. Uma Devi, B. Prathibha Devi\nCategories: Computer Science\nPublished: 2020-04-04\nSummary: Academic research publication titled 'Mutagenic Effect of Chemicals on Certain Biochemical Parameters in Two Cultivars of Sunflower (Helianthus annuus L.)'.",
+      "metadata": {
+        "paper_id": "10.1007/978-981-15-1636-8_42",
+        "title": "Mutagenic Effect of Chemicals on Certain Biochemical Parameters in Two Cultivars of Sunflower (Helianthus annuus L.)",
+        "published": "2020-04-04",
+        "authors_joined": "T. Padmavathi, M. Uma Devi, B. Prathibha Devi",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'Mutagenic Effect of Chemicals on Certain Biochemical Parameters in Two Cultivars of Sunflower (Helianthus annuus L.)'.",
+        "abs_url": "https://doi.org/10.1007/978-981-15-1636-8_42",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.1007/978-3-030-05784-8_6::12",
+      "paper_id": "10.1007/978-3-030-05784-8_6",
+      "title": "Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union",
+      "content": "Title: Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union\nAuthors: Svetlana Savranskaya\nCategories: Computer Science\nPublished: 2019-01-01\nSummary: Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'.",
+      "metadata": {
+        "paper_id": "10.1007/978-3-030-05784-8_6",
+        "title": "Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union",
+        "published": "2019-01-01",
+        "authors_joined": "Svetlana Savranskaya",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'Gorbachev\u2019s \u201cNew Thinking\u201d: A Proto-Liberal Program for the Soviet Union'.",
+        "abs_url": "https://doi.org/10.1007/978-3-030-05784-8_6",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.1007/978-3-658-17671-6_18-1::13",
+      "paper_id": "10.1007/978-3-658-17671-6_18-1",
+      "title": "Soziale Innovation",
+      "content": "Title: Soziale Innovation\nAuthors: J\u00fcrgen Howaldt, Michael Schwarz\nCategories: Computer Science\nPublished: 2018-11-03\nSummary: Academic research publication titled 'Soziale Innovation'.",
+      "metadata": {
+        "paper_id": "10.1007/978-3-658-17671-6_18-1",
+        "title": "Soziale Innovation",
+        "published": "2018-11-03",
+        "authors_joined": "J\u00fcrgen Howaldt, Michael Schwarz",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'Soziale Innovation'.",
+        "abs_url": "https://doi.org/10.1007/978-3-658-17671-6_18-1",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.1007/978-81-322-2752-6_56::14",
+      "paper_id": "10.1007/978-81-322-2752-6_56",
+      "title": "An Improved Content Based Medical Image Retrieval System Using Integrated Steerable Texture Components and User Interactive Feedback Method",
+      "content": "Title: An Improved Content Based Medical Image Retrieval System Using Integrated Steerable Texture Components and User Interactive Feedback Method\nAuthors: B. Jyothi, Y. Madhavee Latha, P. G. Krishna Mohan\nCategories: Computer Science\nPublished: 2016-02-03\nSummary: Academic research publication titled 'An Improved Content Based Medical Image Retrieval System Using Integrated Steerable Texture Components and User Interactive Feedback Method'.",
+      "metadata": {
+        "paper_id": "10.1007/978-81-322-2752-6_56",
+        "title": "An Improved Content Based Medical Image Retrieval System Using Integrated Steerable Texture Components and User Interactive Feedback Method",
+        "published": "2016-02-03",
+        "authors_joined": "B. Jyothi, Y. Madhavee Latha, P. G. Krishna Mohan",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'An Improved Content Based Medical Image Retrieval System Using Integrated Steerable Texture Components and User Interactive Feedback Method'.",
+        "abs_url": "https://doi.org/10.1007/978-81-322-2752-6_56",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.1007/978-3-319-19932-0_5::15",
+      "paper_id": "10.1007/978-3-319-19932-0_5",
+      "title": "Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes",
+      "content": "Title: Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes\nAuthors: Moaine El Baidouri, Olivier Panaud\nCategories: Computer Science\nPublished: 2015-07-11\nSummary: Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+      "metadata": {
+        "paper_id": "10.1007/978-3-319-19932-0_5",
+        "title": "Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes",
+        "published": "2015-07-11",
+        "authors_joined": "Moaine El Baidouri, Olivier Panaud",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'Horizontal Transfers and the New Model of TE-Driven Genome Evolution in Eukaryotes'.",
+        "abs_url": "https://doi.org/10.1007/978-3-319-19932-0_5",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.1007/978-3-642-33832-8_41::16",
+      "paper_id": "10.1007/978-3-642-33832-8_41",
+      "title": "Disturbing Noise Identification and Sound Quality Research on Car Generator",
+      "content": "Title: Disturbing Noise Identification and Sound Quality Research on Car Generator\nAuthors: Yanfang Hou, Guohua Han, Yaozhen Zhao, Xueying Xu\nCategories: Computer Science\nPublished: 2012-11-07\nSummary: Academic research publication titled 'Disturbing Noise Identification and Sound Quality Research on Car Generator'.",
+      "metadata": {
+        "paper_id": "10.1007/978-3-642-33832-8_41",
+        "title": "Disturbing Noise Identification and Sound Quality Research on Car Generator",
+        "published": "2012-11-07",
+        "authors_joined": "Yanfang Hou, Guohua Han, Yaozhen Zhao, Xueying Xu",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'Disturbing Noise Identification and Sound Quality Research on Car Generator'.",
+        "abs_url": "https://doi.org/10.1007/978-3-642-33832-8_41",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.1007/978-3-7091-0962-5_19::17",
+      "paper_id": "10.1007/978-3-7091-0962-5_19",
+      "title": "Immune System",
+      "content": "Title: Immune System\nAuthors: Stefan Feske\nCategories: Computer Science\nPublished: 2011-12-10\nSummary: Academic research publication titled 'Immune System'.",
+      "metadata": {
+        "paper_id": "10.1007/978-3-7091-0962-5_19",
+        "title": "Immune System",
+        "published": "2011-12-10",
+        "authors_joined": "Stefan Feske",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'Immune System'.",
+        "abs_url": "https://doi.org/10.1007/978-3-7091-0962-5_19",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.1057/9780230244870_1::18",
+      "paper_id": "10.1057/9780230244870_1",
+      "title": "Introduction: Medicine for the Sick Soul",
+      "content": "Title: Introduction: Medicine for the Sick Soul\nAuthors: Sari Kivist\u00f6\nCategories: Computer Science\nPublished: 2009-01-01\nSummary: Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+      "metadata": {
+        "paper_id": "10.1057/9780230244870_1",
+        "title": "Introduction: Medicine for the Sick Soul",
+        "published": "2009-01-01",
+        "authors_joined": "Sari Kivist\u00f6",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'Introduction: Medicine for the Sick Soul'.",
+        "abs_url": "https://doi.org/10.1057/9780230244870_1",
+        "pdf_url": ""
+      }
+    },
+    {
+      "record_id": "10.1007/978-0-387-30160-0_1141::19",
+      "paper_id": "10.1007/978-0-387-30160-0_1141",
+      "title": "Becke test",
+      "content": "Title: Becke test\nAuthors: Unknown Author\nCategories: Computer Science\nPublished: 2007-01-01\nSummary: Academic research publication titled 'Becke test'.",
+      "metadata": {
+        "paper_id": "10.1007/978-0-387-30160-0_1141",
+        "title": "Becke test",
+        "published": "2007-01-01",
+        "authors_joined": "Unknown Author",
+        "categories_joined": "Computer Science",
+        "summary": "Academic research publication titled 'Becke test'.",
+        "abs_url": "https://doi.org/10.1007/978-0-387-30160-0_1141",
+        "pdf_url": ""
+      }
+    }
+  ]
+}

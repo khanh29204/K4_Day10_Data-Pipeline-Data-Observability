@@ -1,0 +1,53 @@
+{
+  "total_corruptions": 6,
+  "log": [
+    {
+      "type": "drop_latest_records",
+      "description": "Dropped top 2 latest records",
+      "affected_paper_ids": [
+        "10.1007/978-3-031-72371-1_11",
+        "10.1007/978-3-031-32152-8_30"
+      ]
+    },
+    {
+      "type": "blank_summary",
+      "description": "Blanked summary for 2 rows",
+      "affected_paper_ids": [
+        "10.1007/978-3-031-23161-2_300726",
+        "10.1007/978-3-031-28170-9_6"
+      ]
+    },
+    {
+      "type": "inject_noise",
+      "description": "Injected noise into summary for 2 rows",
+      "affected_paper_ids": [
+        "10.1007/978-3-476-05869-0_72",
+        "10.34157/978-3-648-16750-2_3"
+      ]
+    },
+    {
+      "type": "truncate_title",
+      "description": "Truncated title for 2 rows",
+      "affected_paper_ids": [
+        "10.1007/978-981-16-8679-5_306",
+        "10.1007/978-1-4842-7310-4_15"
+      ]
+    },
+    {
+      "type": "stale_date",
+      "description": "Changed published date to 2010-01-01 for 2 rows",
+      "affected_paper_ids": [
+        "10.1016/b978-0-08-102696-0.00020-8",
+        "10.1007/978-3-030-58292-0_20395"
+      ]
+    },
+    {
+      "type": "add_duplicates",
+      "description": "Duplicated 2 rows",
+      "affected_paper_ids": [
+        "10.1007/978-3-031-23161-2_300726",
+        "10.1007/978-3-031-28170-9_6"
+      ]
+    }
+  ]
+}

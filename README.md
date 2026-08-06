@@ -239,7 +239,7 @@ Mục tiêu không chỉ là pipeline chạy xong, mà phải có bằng chứng
 
 ## 8. Checklist trước khi nộp
 
-- [ ] Cài đặt được trên môi trường sạch bằng một trong hai cách ở trên
+- [x] Cài đặt được trên môi trường sạch bằng một trong hai cách ở trên
 - [ ] Baseline pipeline chạy end-to-end
 - [ ] Corruption flow chạy sau baseline
 - [ ] Có đầy đủ raw, clean, embedding, evaluation, quality và report artifacts
