@@ -68,22 +68,6 @@
     "comment": ""
   },
   {
-    "paper_id": "10.3390/app16052244",
-    "title": "Hybrid Retrieval-Augmented Generation: Semantic and Structural Integration for Large Language Model Reasoning",
-    "summary": "Recent GraphRAG methods based on knowledge graphs (KGs) primarily rely on either under-reasoning or a structural path-level retriever, which prevents them from jointly capturing fine-grained semantic relevance and explicit multi-hop reasoning paths. This separation often results in semantic mismatch\u2014where logical links are missing\u2014or structural over-constraint in reasoning\u2014 where rigid dependencies limit flexible reasoning\u2014thereby degrading both answer accuracy and the reliability of evidence in complex KGQA tasks. To address these issues, we propose HybRAG, a hybrid retrieval framework that synergistically integrates a semantic node-level retriever and structural path-level retriever. HybRAG constructs a hybrid subgraph that jointly reflects the semantic proximity of entities and the relational structures encoded in the KG. Furthermore, we incorporate retrieval-augmented fine-tuning, which enables the model to internalize advanced reasoning strategies for interpreting disparate semantic and structural signals, rather than merely memorizing domain facts. Through extensive experiments on the WebQSP and CWQ benchmarks, we demonstrate that HybRAG effectively bridges the gap between LLM-centric semantic approaches and GNN-centric structural approaches, outperforming single-retriever baselines. Our findings, including detailed sensitivity and ablation analyses, provide empirical evidence that the systematic alignment of semantic and structural signals is essential for ensuring the reasoning reliability and scalability of next-generation GraphRAG systems.",
-    "authors": [
-      "Hyewon Lee",
-      "Sungsu Lim"
-    ],
-    "categories": [],
-    "primary_category": "",
-    "published": "2026-02-26",
-    "updated": "2026-05-14",
-    "abs_url": "https://doi.org/10.3390/app16052244",
-    "pdf_url": "https://www.mdpi.com/2076-3417/16/5/2244/pdf",
-    "comment": "Applied Sciences, vol. 16, no. 5, pp. 2244"
-  },
-  {
     "paper_id": "10.55041/isjem07213",
     "title": "Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference",
     "summary": "Abstract - This work focuses on the two crucial bottlenecks in Retrieval-Augmented Generation (RAG): high inference latency and expensive computation cost. RAG enhances the factual correctness of Large Language Models (LLMs) by utilizing external knowledge sources; However, the auto-To achieve a good recall, the system applies a two-way retrieval mechanism: Dense retrieval: This module uses BAAI/bge-small-en-v1.5 to create a 384-dimensional embedding space, where queries and documents are mapped. The embeddings are stored in a FAISS IndexFlatL2. Sparse retrieval: This module uses TF-IDF vectorization to capture an exact keyword match. Reranking: A simple heuristic mechanism of matching substrings of the query terms in the documents selected to perform the final step of ranking them for prompt introduce a novel speculative RAG framework that combines hybrid retrieval with speculative decoding. Our framework employs hybrid dense vector search (BGE-small) and sparse keyword search (TF-IDF) for enhanced recall followed by a lightweight re-ranker model. A compact draft model (TinyLlama-1.1B) makes tentative future token generation, then a larger verifier model (Mistral-7B) checks the correctness of the candidate token. Empirical experiments demonstrate 33% and 29% improvement in inference latency and token reduction, respectively, compared to the baseline of a typical 7B model, while retaining 94% accuracy on factoid tasks. Key Words: Retrieval-Augmented Generation, Speculative Decoding, Large Language Models, Inference Optimization, Hybrid Retrieval",
@@ -98,6 +82,22 @@
     "abs_url": "https://doi.org/10.55041/isjem07213",
     "pdf_url": "",
     "comment": "International Scientific Journal of Engineering and Management, vol. 05, no. 05, pp. 1-2"
+  },
+  {
+    "paper_id": "10.3390/app16052244",
+    "title": "Hybrid Retrieval-Augmented Generation: Semantic and Structural Integration for Large Language Model Reasoning",
+    "summary": "Recent GraphRAG methods based on knowledge graphs (KGs) primarily rely on either under-reasoning or a structural path-level retriever, which prevents them from jointly capturing fine-grained semantic relevance and explicit multi-hop reasoning paths. This separation often results in semantic mismatch\u2014where logical links are missing\u2014or structural over-constraint in reasoning\u2014 where rigid dependencies limit flexible reasoning\u2014thereby degrading both answer accuracy and the reliability of evidence in complex KGQA tasks. To address these issues, we propose HybRAG, a hybrid retrieval framework that synergistically integrates a semantic node-level retriever and structural path-level retriever. HybRAG constructs a hybrid subgraph that jointly reflects the semantic proximity of entities and the relational structures encoded in the KG. Furthermore, we incorporate retrieval-augmented fine-tuning, which enables the model to internalize advanced reasoning strategies for interpreting disparate semantic and structural signals, rather than merely memorizing domain facts. Through extensive experiments on the WebQSP and CWQ benchmarks, we demonstrate that HybRAG effectively bridges the gap between LLM-centric semantic approaches and GNN-centric structural approaches, outperforming single-retriever baselines. Our findings, including detailed sensitivity and ablation analyses, provide empirical evidence that the systematic alignment of semantic and structural signals is essential for ensuring the reasoning reliability and scalability of next-generation GraphRAG systems.",
+    "authors": [
+      "Hyewon Lee",
+      "Sungsu Lim"
+    ],
+    "categories": [],
+    "primary_category": "",
+    "published": "2026-02-26",
+    "updated": "2026-05-14",
+    "abs_url": "https://doi.org/10.3390/app16052244",
+    "pdf_url": "https://www.mdpi.com/2076-3417/16/5/2244/pdf",
+    "comment": "Applied Sciences, vol. 16, no. 5, pp. 2244"
   },
   {
     "paper_id": "10.20944/preprints202602.0996.v1",
