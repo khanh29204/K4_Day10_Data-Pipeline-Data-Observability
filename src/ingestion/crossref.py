@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass
+from datetime import UTC, datetime
 from pathlib import Path
 import random
 import re
@@ -61,12 +62,30 @@ def _format_date(date_field: dict[str, Any] | None) -> str:
         return ""
 
 
+def _today_str() -> str:
+    return datetime.now(UTC).strftime("%Y-%m-%d")
+
+
 def _extract_published(item: dict[str, Any]) -> str:
+    candidate = ""
     for key in ("published", "published-print", "published-online", "issued"):
         date_str = _format_date(item.get(key))
         if date_str:
-            return date_str
-    return ""
+            candidate = date_str
+            break
+
+    today = _today_str()
+    if candidate and candidate > today:
+        # Crossref sometimes forward-dates a journal issue (e.g. an
+        # "online-first" article assigned to a future print issue). Fall back
+        # to when the record was actually created/indexed instead of
+        # reporting a publish date that hasn't happened yet.
+        for key in ("created", "deposited", "indexed"):
+            fallback = _format_date(item.get(key))
+            if fallback and fallback <= today:
+                return fallback
+
+    return candidate
 
 
 def _extract_updated(item: dict[str, Any]) -> str:
