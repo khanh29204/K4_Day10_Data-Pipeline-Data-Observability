@@ -4,8 +4,8 @@
   "message-version": "1.0.0",
   "message": {
     "facets": {},
-    "next-cursor": "DnF1ZXJ5VGhlbkZldGNoJAAAAAAbQbxHFk5nSWJEREVRUzhPSmhOR2tEOC0yNWcAAAAAGzYonBZNT3ZTXy1hVVRtbXF1OUN2WnVoLTd3AAAAAZPGh1AWT1piSnhCcUZTZ1MtbGdqSndHd0xzdwAAAAAbVtI_FnpIby1kdEhjUXV5cVpPaDJJekdLbEEAAAAAG3MyuBZ2a21MQWZKalFwS0RhQ2dMSGNiS0tnAAAAABtW1-kWalEzRHppZEFRaUtrVmY5dnJ2VkpTZwAAAAAbAQfyFllfZmVCYnVpUWF1anJsT1hVNkpNVUEAAAAAG3MytxZ2a21MQWZKalFwS0RhQ2dMSGNiS0tnAAAAABvMwikWZmNzUUNyUG1SYjZTdXFNLUxpOThhdwAAAAGPBNK1FkNTcEFMQXBqUlotS2NVR2U1ZnBpeWcAAAAAG0G8SBZOZ0liRERFUVM4T0poTkdrRDgtMjVnAAAAABs2KJsWTU92U18tYVVUbW1xdTlDdlp1aC03dwAAAAGJw4pmFk5FNlBBQTkxU3IyeVNTN1pDOW9tUFEAAAAAXDQZ_hYyS0VtNUJ1clRMS0hsQVpqcW8zUWF3AAAAABsbUiQWRFhONzI4N0xUX1d3OVVrUFd5cE9vQQAAAAAbF6EhFl9Pdy1fVko1U0NhN1JhNzJ3Vi1obEEAAAAAGxtSJRZEWE43Mjg3TFRfV3c5VWtQV3lwT29BAAAAABvlwz0WZUhneGRUMzZSc2FsX1dicnMtS2xtUQAAAAGJw4pnFk5FNlBBQTkxU3IyeVNTN1pDOW9tUFEAAAAAG8lWfRZkMWZxQXRRTVJVT1JVRFhjWWFhaGp3AAAAAY-TAnwWRTVFSzRuOEZTNmVvMF8yOXVKVlJvQQAAAAGTCygJFmVFaGZqREs1VFhpRDVrNjhxWmxXZGcAAAABj5MCexZFNUVLNG44RlM2ZW8wXzI5dUpWUm9BAAAAABtW0kIWekhvLWR0SGNRdXlxWk9oMkl6R0tsQQAAAAGguloOFlN2NFkzT0EzU0hPamsxZUxrRHJWQncAAAAAG1bX6hZqUTNEemlkQVFpS2tWZjl2cnZWSlNnAAAAAYjvBk4WdXZSSjM5a0VTajI2bnA2N0tJVGdZZwAAAAGTxodRFk9aYkp4QnFGU2dTLWxnakp3R3dMc3cAAAABlKd0vBYyem9obE83aFRMNnZLRjlTbXFNWkh3AAAAAAzZylUWb0FYVXlYV0hUbzJqdy1ua2pYM2VyUQAAAAGmibTaFlJTLWY0eWlWUThpcVE4bzFER2p3ZFEAAAABlKd0vRYyem9obE83aFRMNnZLRjlTbXFNWkh3AAAAAZV064cWWi1aZUdJN1NRQUdVczNBcGF6X2RaUQAAAAGTCygKFmVFaGZqREs1VFhpRDVrNjhxWmxXZGcAAAABlXTrhhZaLVplR0k3U1FBR1VzM0FwYXpfZFpRAAAAAYh5LmMWTWpkc1RvTlBTMUdQeGFHUVJGLTgwZw==",
-    "total-results": 101055,
+    "next-cursor": "DnF1ZXJ5VGhlbkZldGNoJAAAAABcPKQkFjJLRW01QnVyVExLSGxBWmpxbzNRYXcAAAAAG7U4kRZnUVloM0tVa1JZQ2RBQWdDNVFPY3FnAAAAABvQoaUWaWpMWXkzdXRTOHFVT0NJdlNVY3BNUQAAAAAbtTiSFmdRWWgzS1VrUllDZEFBZ0M1UU9jcWcAAAAAGwinzhZZX2ZlQmJ1aVFhdWpybE9YVTZKTVVBAAAAABsry6QWeVUyNk4xbEtRSHExemJ0UTZnRFBiZwAAAAB9eAi6FlEtb1BMSkdEUjhHYzBGOHlxVUZ6aUEAAAAAGxC9ZRZnZ2llQjd1d1RrcTdvOWt2S2ZVS1pnAAAAABvVHL8WZmNzUUNyUG1SYjZTdXFNLUxpOThhdwAAAAAb0KGmFmlqTFl5M3V0UzhxVU9DSXZTVWNwTVEAAAAAG7HnxRYySmw5MjRjSFFOeVU0bXZ5UzBaMVNBAAAAABux58YWMkpsOTI0Y0hRTnlVNG12eVMwWjFTQQAAAAB9eAi7FlEtb1BMSkdEUjhHYzBGOHlxVUZ6aUEAAAAAXDykJRYyS0VtNUJ1clRMS0hsQVpqcW8zUWF3AAAAAHzOquUWdjZZNnNLaGdTVktoazI2NWY1MU5BdwAAAAAb7jDhFmVIZ3hkVDM2UnNhbF9XYnJzLUtsbVEAAAAAG9UcvhZmY3NRQ3JQbVJiNlN1cU0tTGk5OGF3AAAAABvuMOAWZUhneGRUMzZSc2FsX1dicnMtS2xtUQAAAAAb0bCsFmQxZnFBdFFNUlVPUlVEWGNZYWFoancAAAAAG9GwqxZkMWZxQXRRTVJVT1JVRFhjWWFhaGp3AAAAAY-bKTcWRTVFSzRuOEZTNmVvMF8yOXVKVlJvQQAAAAAbH8c6FlJ6LTd3QVFOUjJpaFA1VEd5LXh4QkEAAAABkb8esBZBaFJ5dzNIWFQ1ZU91VVkwLVlndEVnAAAAABterTYWekhvLWR0SGNRdXlxWk9oMkl6R0tsQQAAAAGgwrSHFlN2NFkzT0EzU0hPamsxZUxrRHJWQncAAAABoMK0hhZTdjRZM09BM1NIT2prMWVMa0RyVkJ3AAAAAAziN-QWb0FYVXlYV0hUbzJqdy1ua2pYM2VyUQAAAAB8zqrmFnY2WTZzS2hnU1ZLaGsyNjVmNTFOQXcAAAABhb9NXRZVdVNuQ2RSdlNiS0VVbjY3bGlYcVpBAAAAAAziN-MWb0FYVXlYV0hUbzJqdy1ua2pYM2VyUQAAAAGmklJYFlJTLWY0eWlWUThpcVE4bzFER2p3ZFEAAAABlK-TCxYyem9obE83aFRMNnZLRjlTbXFNWkh3AAAAAZODbZEWVmVnOWxXOXRUSFNpZUgtNDVEd28xZwAAAAGTg22SFlZlZzlsVzl0VEhTaWVILTQ1RHdvMWcAAAAAGyvLpRZ5VTI2TjFsS1FIcTF6YnRRNmdEUGJnAAAAAaaSUlkWUlMtZjR5aVZROGlxUThvMURHandkUQ==",
+    "total-results": 101070,
     "items": [
       {
         "indexed": {
@@ -121,7 +121,7 @@
           "date-time": "2026-06-17T08:00:36Z",
           "timestamp": 1781683236000
         },
-        "score": 39.925274,
+        "score": 39.9306,
         "resource": {
           "primary": {
             "URL": "https://ieiap.ru/journal"
@@ -278,7 +278,7 @@
           "date-time": "2026-06-12T16:31:45Z",
           "timestamp": 1781281905000
         },
-        "score": 38.15964,
+        "score": 38.160072,
         "resource": {
           "primary": {
             "URL": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.177272838.89432844/v1"
@@ -443,7 +443,7 @@
           "date-time": "2026-07-17T01:44:05Z",
           "timestamp": 1784252645000
         },
-        "score": 37.59761,
+        "score": 37.596386,
         "resource": {
           "primary": {
             "URL": "https://inatgi.net/index.php/jaiaa/article/view/806"
@@ -644,7 +644,7 @@
           "date-time": "2026-04-07T00:32:52Z",
           "timestamp": 1775521972000
         },
-        "score": 37.492188,
+        "score": 37.505127,
         "resource": {
           "primary": {
             "URL": "https://www.preprints.org/manuscript/202604.0339/v1"
@@ -671,6 +671,149 @@
           ]
         },
         "subtype": "preprint"
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ],
+          "date-time": "2026-05-06T17:13:30Z",
+          "timestamp": 1778087610972,
+          "version": "3.51.4"
+        },
+        "reference-count": 0,
+        "publisher": "Edtech Publishers (OPC) Private Limited",
+        "issue": "05",
+        "content-domain": {
+          "domain": [],
+          "crossmark-restriction": false
+        },
+        "short-container-title": [
+          "ISJEM"
+        ],
+        "abstract": "<jats:p>Abstract - This work focuses on the two crucial bottlenecks in Retrieval-Augmented Generation (RAG): high inference latency and expensive computation cost. RAG enhances the factual correctness of Large Language Models (LLMs) by utilizing external knowledge sources; However, the auto-To achieve a good recall, the system applies a two-way retrieval mechanism:\n\nDense retrieval: This module uses BAAI/bge-small-en-v1.5 to create a 384-dimensional embedding space, where queries and documents are mapped. The embeddings are stored in a FAISS IndexFlatL2.\nSparse retrieval: This module uses TF-IDF vectorization to capture an exact keyword match.\nReranking: A simple heuristic mechanism of matching substrings of the query terms in the documents selected to perform the final step of ranking them for prompt\n\nintroduce a novel speculative RAG framework that combines hybrid retrieval with speculative decoding. Our framework employs hybrid dense vector search (BGE-small) and sparse keyword search (TF-IDF) for enhanced recall followed by a lightweight re-ranker model. A compact draft model (TinyLlama-1.1B) makes tentative future token generation, then a larger verifier model (Mistral-7B) checks the correctness of the candidate token. Empirical experiments demonstrate 33% and 29% improvement in inference latency and token reduction, respectively, compared to the baseline of a typical 7B model, while retaining 94% accuracy on factoid tasks.\n\nKey Words: Retrieval-Augmented Generation, Speculative Decoding, Large Language Models, Inference Optimization, Hybrid Retrieval</jats:p>",
+        "DOI": "10.55041/isjem07213",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ],
+          "date-time": "2026-05-06T16:40:09Z",
+          "timestamp": 1778085609000
+        },
+        "page": "1-2",
+        "source": "Crossref",
+        "is-referenced-by-count": 0,
+        "title": [
+          "Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference"
+        ],
+        "prefix": "10.55041",
+        "volume": "05",
+        "author": [
+          {
+            "given": "Dr. Sumalatha",
+            "family": "P",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Manoj",
+            "family": "Kumar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "33635",
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ]
+        },
+        "container-title": [
+          "International Scientific Journal of Engineering and Management"
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ],
+          "date-time": "2026-05-06T16:40:10Z",
+          "timestamp": 1778085610000
+        },
+        "score": 36.664074,
+        "resource": {
+          "primary": {
+            "URL": "https://isjem.com/download/speculative-retrieval-augmented-generation-for-cost-efficient-large-language-model-inference/"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ]
+        },
+        "references-count": 0,
+        "journal-issue": {
+          "issue": "05",
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                6
+              ]
+            ]
+          }
+        },
+        "URL": "https://doi.org/10.55041/isjem07213",
+        "ISSN": [
+          "2583-6129"
+        ],
+        "issn-type": [
+          {
+            "value": "2583-6129",
+            "type": "electronic"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              5,
+              6
+            ]
+          ]
+        }
       },
       {
         "indexed": {
@@ -1060,7 +1203,7 @@
           "date-time": "2026-02-28T05:20:35Z",
           "timestamp": 1772256035000
         },
-        "score": 36.651268,
+        "score": 36.653763,
         "resource": {
           "primary": {
             "URL": "https://www.mdpi.com/2076-3417/16/5/2244"
@@ -1106,149 +1249,6 @@
               2026,
               2,
               26
-            ]
-          ]
-        }
-      },
-      {
-        "indexed": {
-          "date-parts": [
-            [
-              2026,
-              5,
-              6
-            ]
-          ],
-          "date-time": "2026-05-06T17:13:30Z",
-          "timestamp": 1778087610972,
-          "version": "3.51.4"
-        },
-        "reference-count": 0,
-        "publisher": "Edtech Publishers (OPC) Private Limited",
-        "issue": "05",
-        "content-domain": {
-          "domain": [],
-          "crossmark-restriction": false
-        },
-        "short-container-title": [
-          "ISJEM"
-        ],
-        "abstract": "<jats:p>Abstract - This work focuses on the two crucial bottlenecks in Retrieval-Augmented Generation (RAG): high inference latency and expensive computation cost. RAG enhances the factual correctness of Large Language Models (LLMs) by utilizing external knowledge sources; However, the auto-To achieve a good recall, the system applies a two-way retrieval mechanism:\n\nDense retrieval: This module uses BAAI/bge-small-en-v1.5 to create a 384-dimensional embedding space, where queries and documents are mapped. The embeddings are stored in a FAISS IndexFlatL2.\nSparse retrieval: This module uses TF-IDF vectorization to capture an exact keyword match.\nReranking: A simple heuristic mechanism of matching substrings of the query terms in the documents selected to perform the final step of ranking them for prompt\n\nintroduce a novel speculative RAG framework that combines hybrid retrieval with speculative decoding. Our framework employs hybrid dense vector search (BGE-small) and sparse keyword search (TF-IDF) for enhanced recall followed by a lightweight re-ranker model. A compact draft model (TinyLlama-1.1B) makes tentative future token generation, then a larger verifier model (Mistral-7B) checks the correctness of the candidate token. Empirical experiments demonstrate 33% and 29% improvement in inference latency and token reduction, respectively, compared to the baseline of a typical 7B model, while retaining 94% accuracy on factoid tasks.\n\nKey Words: Retrieval-Augmented Generation, Speculative Decoding, Large Language Models, Inference Optimization, Hybrid Retrieval</jats:p>",
-        "DOI": "10.55041/isjem07213",
-        "type": "journal-article",
-        "created": {
-          "date-parts": [
-            [
-              2026,
-              5,
-              6
-            ]
-          ],
-          "date-time": "2026-05-06T16:40:09Z",
-          "timestamp": 1778085609000
-        },
-        "page": "1-2",
-        "source": "Crossref",
-        "is-referenced-by-count": 0,
-        "title": [
-          "Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference"
-        ],
-        "prefix": "10.55041",
-        "volume": "05",
-        "author": [
-          {
-            "given": "Dr. Sumalatha",
-            "family": "P",
-            "sequence": "first",
-            "affiliation": [],
-            "role": [
-              {
-                "role": "author",
-                "vocabulary": "crossref"
-              }
-            ]
-          },
-          {
-            "given": "Manoj",
-            "family": "Kumar",
-            "sequence": "additional",
-            "affiliation": [],
-            "role": [
-              {
-                "role": "author",
-                "vocabulary": "crossref"
-              }
-            ]
-          }
-        ],
-        "member": "33635",
-        "published-online": {
-          "date-parts": [
-            [
-              2026,
-              5,
-              6
-            ]
-          ]
-        },
-        "container-title": [
-          "International Scientific Journal of Engineering and Management"
-        ],
-        "deposited": {
-          "date-parts": [
-            [
-              2026,
-              5,
-              6
-            ]
-          ],
-          "date-time": "2026-05-06T16:40:10Z",
-          "timestamp": 1778085610000
-        },
-        "score": 36.51403,
-        "resource": {
-          "primary": {
-            "URL": "https://isjem.com/download/speculative-retrieval-augmented-generation-for-cost-efficient-large-language-model-inference/"
-          }
-        },
-        "issued": {
-          "date-parts": [
-            [
-              2026,
-              5,
-              6
-            ]
-          ]
-        },
-        "references-count": 0,
-        "journal-issue": {
-          "issue": "05",
-          "published-online": {
-            "date-parts": [
-              [
-                2026,
-                5,
-                6
-              ]
-            ]
-          }
-        },
-        "URL": "https://doi.org/10.55041/isjem07213",
-        "ISSN": [
-          "2583-6129"
-        ],
-        "issn-type": [
-          {
-            "value": "2583-6129",
-            "type": "electronic"
-          }
-        ],
-        "published": {
-          "date-parts": [
-            [
-              2026,
-              5,
-              6
             ]
           ]
         }
@@ -1367,7 +1367,7 @@
           "date-time": "2026-02-13T02:08:03Z",
           "timestamp": 1770948483000
         },
-        "score": 36.196884,
+        "score": 36.195198,
         "resource": {
           "primary": {
             "URL": "https://www.preprints.org/manuscript/202602.0996/v1"
@@ -1839,7 +1839,7 @@
           "date-time": "2026-07-02T10:56:27Z",
           "timestamp": 1782989787000
         },
-        "score": 35.717316,
+        "score": 35.717987,
         "resource": {
           "primary": {
             "URL": "https://www.mdpi.com/2075-5309/16/13/2637"
@@ -2001,7 +2001,7 @@
           "date-time": "2026-07-06T03:55:08Z",
           "timestamp": 1783310108000
         },
-        "score": 35.636707,
+        "score": 35.646057,
         "resource": {
           "primary": {
             "URL": "http://preprints.jmir.org/preprint/106157"
@@ -2172,7 +2172,7 @@
           "date-time": "2026-06-15T06:08:17Z",
           "timestamp": 1781503697000
         },
-        "score": 35.511658,
+        "score": 35.486675,
         "resource": {
           "primary": {
             "URL": "https://www.researchsquare.com/article/rs-10012178/v1"
@@ -2653,7 +2653,7 @@
           "date-time": "2026-08-05T14:18:01Z",
           "timestamp": 1785939481000
         },
-        "score": 34.933266,
+        "score": 34.881382,
         "resource": {
           "primary": {
             "URL": "https://onepetro.org/SJ/article/doi/10.2118/234689-PA/801839/SafeRAG-A-Large-Language-Model-Based-Multistage"
@@ -2860,7 +2860,7 @@
           "date-time": "2026-07-04T20:37:12Z",
           "timestamp": 1783197432000
         },
-        "score": 34.605583,
+        "score": 34.597424,
         "resource": {
           "primary": {
             "URL": "https://www.ejournal.ummuba.ac.id/index.php/JUPTIK/article/view/4318"
@@ -3029,7 +3029,7 @@
           "date-time": "2026-07-10T14:51:37Z",
           "timestamp": 1783695097000
         },
-        "score": 34.479992,
+        "score": 34.48075,
         "resource": {
           "primary": {
             "URL": "https://hdl.handle.net/11681/50309"
@@ -3602,7 +3602,7 @@
           "date-time": "2026-07-13T14:44:27Z",
           "timestamp": 1783953867000
         },
-        "score": 34.356735,
+        "score": 34.357403,
         "resource": {
           "primary": {
             "URL": "https://link.springer.com/10.1007/s10278-026-02086-9"
@@ -3824,7 +3824,7 @@
           "date-time": "2026-03-06T11:10:27Z",
           "timestamp": 1772795427000
         },
-        "score": 34.290627,
+        "score": 34.280567,
         "resource": {
           "primary": {
             "URL": "https://www.scholarlyreview.org/article/158711-the-role-of-retrieval-augmented-generation-in-improving-factual-accuracy-for-medical-large-language-models"
@@ -4017,7 +4017,7 @@
           "date-time": "2026-02-26T14:41:27Z",
           "timestamp": 1772116887000
         },
-        "score": 34.16715,
+        "score": 34.180233,
         "resource": {
           "primary": {
             "URL": "https://jurnal.polbeng.ac.id/index.php/ISI/article/view/1484"
@@ -4287,7 +4287,7 @@
           "date-time": "2026-05-09T02:39:59Z",
           "timestamp": 1778294399000
         },
-        "score": 34.09639,
+        "score": 34.078857,
         "resource": {
           "primary": {
             "URL": "https://academic.oup.com/sleep/article/49/Supplement_1/A153/8673444"
@@ -4496,7 +4496,7 @@
           "date-time": "2026-07-10T18:10:19Z",
           "timestamp": 1783707019000
         },
-        "score": 34.042583,
+        "score": 34.008938,
         "resource": {
           "primary": {
             "URL": "https://www.researchsquare.com/article/rs-10178277/v1"
@@ -4669,7 +4669,7 @@
           "date-time": "2026-06-02T16:06:31Z",
           "timestamp": 1780416391000
         },
-        "score": 33.934788,
+        "score": 33.93476,
         "resource": {
           "primary": {
             "URL": "https://www.researchsquare.com/article/rs-9882260/v1"
@@ -4780,7 +4780,7 @@
           "date-time": "2026-05-16T07:57:01Z",
           "timestamp": 1778918221000
         },
-        "score": 33.34721,
+        "score": 33.52854,
         "resource": {
           "primary": {
             "URL": "https://www.ijraset.com/best-journal/hybrid-graph-neural-network-and-large-language-"
@@ -4915,7 +4915,7 @@
           "date-time": "2026-06-01T07:10:33Z",
           "timestamp": 1780297833000
         },
-        "score": 33.18448,
+        "score": 33.192444,
         "resource": {
           "primary": {
             "URL": "https://tns.ewapub.com/article/view/34055"
@@ -5142,7 +5142,7 @@
           "date-time": "2026-05-06T13:17:58Z",
           "timestamp": 1778073478000
         },
-        "score": 33.104023,
+        "score": 33.03026,
         "resource": {
           "primary": {
             "URL": "https://journals.flvc.org/FLAIRS/article/view/141782"
@@ -5322,7 +5322,7 @@
           "date-time": "2026-05-22T03:59:47Z",
           "timestamp": 1779422387000
         },
-        "score": 33.01744,
+        "score": 33.017906,
         "resource": {
           "primary": {
             "URL": "https://www.researchsquare.com/article/rs-9770645/v1"
@@ -5750,7 +5750,7 @@
           "date-time": "2026-07-16T09:33:41Z",
           "timestamp": 1784194421000
         },
-        "score": 32.99406,
+        "score": 32.975456,
         "resource": {
           "primary": {
             "URL": "https://onlinelibrary.wiley.com/doi/10.1111/exsy.70341"

@@ -41,6 +41,7 @@ def main() -> None:
         if pd.isna(record.get("age_days")):
             record["age_days"] = None
     write_json(settings.paths.clean_json, clean_records)
+    write_json(settings.paths.clean_log, clean_df.attrs.get("drop_log", {}))
 
     print(f"Cleaned {len(clean_df)} records -> {settings.paths.clean_csv}, {settings.paths.clean_json}")
 

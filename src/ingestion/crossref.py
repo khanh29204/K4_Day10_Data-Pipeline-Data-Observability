@@ -78,9 +78,12 @@ def _extract_published(item: dict[str, Any]) -> str:
     if candidate and candidate > today:
         # Crossref sometimes forward-dates a journal issue (e.g. an
         # "online-first" article assigned to a future print issue). Fall back
-        # to when the record was actually created/indexed instead of
-        # reporting a publish date that hasn't happened yet.
-        for key in ("created", "deposited", "indexed"):
+        # to the most recent legitimate activity date instead of reporting a
+        # publish date that hasn't happened yet. `created` is when the DOI
+        # was first registered and can be stale (e.g. an early preprint
+        # placeholder), so prefer the freshest signal first, same priority
+        # as `_extract_updated`.
+        for key in ("indexed", "deposited", "created"):
             fallback = _format_date(item.get(key))
             if fallback and fallback <= today:
                 return fallback
@@ -143,19 +146,36 @@ def parse_crossref_payload(payload: dict) -> list[PaperRecord]:
     """Parse a raw Crossref `/works` response into `PaperRecord`s.
 
     Records missing a DOI, title, or abstract are dropped as invalid, and
-    duplicate DOIs are collapsed to a single record.
+    duplicate DOIs are collapsed to a single record. Prints a count of how
+    many items were skipped and why, and traces the specific DOI/index for
+    each skipped item, so a bad raw item is never dropped silently.
     """
     items = payload.get("message", {}).get("items") or []
     records: list[PaperRecord] = []
     seen_ids: set[str] = set()
+    skip_reasons: dict[str, int] = {"missing_doi": 0, "missing_title": 0, "missing_summary": 0, "duplicate_doi": 0}
+    skip_trace: list[str] = []
 
-    for item in items:
+    for index, item in enumerate(items):
         doi = (item.get("DOI") or "").strip()
         titles = item.get("title") or []
         title = normalize_whitespace(titles[0]) if titles else ""
         summary = _strip_tags(item.get("abstract") or "")
 
-        if not doi or not title or not summary or doi in seen_ids:
+        reason = (
+            "missing_doi"
+            if not doi
+            else "missing_title"
+            if not title
+            else "missing_summary"
+            if not summary
+            else "duplicate_doi"
+            if doi in seen_ids
+            else None
+        )
+        if reason is not None:
+            skip_reasons[reason] += 1
+            skip_trace.append(f"{doi or f'<no DOI, index {index}>'}: {reason}")
             continue
 
         categories = _extract_categories(item)
@@ -175,6 +195,17 @@ def parse_crossref_payload(payload: dict) -> list[PaperRecord]:
             )
         )
         seen_ids.add(doi)
+
+    dropped = len(items) - len(records)
+    print(
+        f"Parsed {len(records)}/{len(items)} raw items "
+        f"(dropped {dropped}: {skip_reasons['missing_doi']} missing DOI, "
+        f"{skip_reasons['missing_title']} missing title, "
+        f"{skip_reasons['missing_summary']} missing summary, "
+        f"{skip_reasons['duplicate_doi']} duplicate DOI)"
+    )
+    for trace in skip_trace:
+        print(f"  skipped: {trace}")
 
     return records
 
@@ -245,11 +276,16 @@ def _collect_crossref_items(
         message = payload.get("message") or {}
         items = message.get("items") or []
         if not items:
+            # Only a truly empty page means the result set is exhausted.
+            # Crossref's cursor follows an Elasticsearch-scroll pattern: the
+            # same `next-cursor` value can legitimately repeat across
+            # requests while still advancing to a fresh, non-overlapping
+            # page each time, so an unchanged cursor is not a stop signal.
             break
         all_items.extend(items)
 
         next_cursor = message.get("next-cursor")
-        if not next_cursor or next_cursor == cursor:
+        if not next_cursor:
             break
         cursor = next_cursor
 
